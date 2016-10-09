@@ -1,0 +1,96 @@
+[
+  {
+    "uri": "features/Chinese_test.feature",
+    "id": "chinese-test-suite",
+    "keyword": "Feature",
+    "name": "chinese test suite",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@chinese",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "chinese-test-suite;test_case",
+        "keyword": "Scenario",
+        "name": "test_case",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@chinese",
+            "line": 1
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "* ",
+            "name": "I puts nihao",
+            "line": 5,
+            "output": [
+              "test"
+            ],
+            "match": {
+              "location": "features/step_definitions/my_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 32751
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "uri": "features/test.feature",
+    "id": "test_suite",
+    "keyword": "Feature",
+    "name": "test_suite",
+    "description": "",
+    "line": 2,
+    "tags": [
+      {
+        "name": "@test",
+        "line": 1
+      }
+    ],
+    "elements": [
+      {
+        "id": "test_suite;test_case",
+        "keyword": "Scenario",
+        "name": "test_case",
+        "description": "",
+        "line": 4,
+        "type": "scenario",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 1
+          }
+        ],
+        "steps": [
+          {
+            "keyword": "* ",
+            "name": "I puts hello world",
+            "line": 5,
+            "output": [
+              "Hello world"
+            ],
+            "match": {
+              "location": "features/step_definitions/my_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13521
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
