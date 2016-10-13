@@ -1,4 +1,4 @@
-
+require 'rake'
 
 task :test do |t|  
   t.cucumber_opts = "-f json -o reports/report.json" 
