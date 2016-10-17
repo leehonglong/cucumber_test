@@ -1,5 +1,0 @@
-require 'cucumber/rake/task'
-
-Cucumber::Rake::Task.new(:test) do |t| 
-  t.cucumber_opts = '-f json -o cucumber.json'
-end
